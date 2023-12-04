@@ -4,9 +4,81 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		 body {
+            background-color: rgb(204, 204, 204);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration-line: none;
+            color: black;
+        }
+
+        .player_one, .player_two {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 10px;
+        }
+	</style>
 </head>
 
 <body>
+	<h1>My Playlist</h1>
+
+    <h2>Now Playing...</h2>
+
+    <div class="player_one">
+        <audio controls>
+            <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
+
+    <h2>MP3 songs</h2>
+
+    <ul>
+        <li><a href="#" target="_blank">Song 1</a></li>
+        <li><a href="#" target="_blank">Song 2</a></li>
+        <li><a href="#" target="_blank">Song 3</a></li>
+        <li><a href="#" target="_blank">Song 4</a></li>
+        <li><a href="#" target="_blank">Song 5</a></li>
+    </ul>
+
+    <h2>Songs Playlist</h2>
+
+    <ul>
+        <li>Song 1</li>
+        <li>Song 2</li>
+        <li>Song 3</li>
+        <li>Song 4</li>
+        <li>Song 5</li>
+    </ul>
+
+    <h2>Video and Audio Player</h2>
+
+    <div class="player_two">
+        <video controls>
+            <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
