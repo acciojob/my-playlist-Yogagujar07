@@ -1,1 +1,14 @@
-/*  your css code here. If applicable */
+body{
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(204, 204, 204);
+}
+audio{
+	width: 100%;
+}
+h1,h2{
+	text-align: center;
+}
+li{
+	list-style: none;
+}
